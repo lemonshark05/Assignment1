@@ -659,6 +659,6 @@ public class DataFlowConstants {
         if(args.length > 2 && args[2].length()!=0){
             functionName = args[2];
         }
-//        dataFlow(lirFilePath, functionName);
+        dataFlow(lirFilePath, functionName);
     }
 }
